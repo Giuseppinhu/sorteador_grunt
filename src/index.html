@@ -16,14 +16,14 @@
         <form id="form-random">
             <div>
                 <label for="number-max">Número Máximo</label>
-                <input type="number" id="number-max">
+                <input type="number" id="number-max" value="2" required step="1">
             </div>
             <button>Sortear</button>
         </form>
+        <div class="result">
+            O número sortiado foi: <span id="result-number"></span>
+        </div>
     </main>
-    <div class="result">
-        O número sortiado foi: <span id="result-number"></span>
-    </div>
 
     <script src="@@LINK_JS"></script>
 </body>
